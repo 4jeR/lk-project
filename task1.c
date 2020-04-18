@@ -2,11 +2,16 @@
 Bartłomiej Długosz - Jądro systemu operacyjnego na przykładzie Linux.
 
 ZADANIE 1. - Własne polecenie find (System Calls)
+PRZYGOTOWANIE:
+a) Uruchom skrypt: ./run_dlugosz_bartlomiej.sh clone
+b) Stwórz przykładowe dane: ./run_dlugosz_bartlomiej.sh run
+
 Napisz program, który znajdzie i wypisze na standardowe wyjście
 wszystkie pliki oraz katalogi, które w swojej nazwie zawierają 
 dany ciąg znaków (zadany jako argument wywołania programu).
 Wyniki powinny być wypisane z widocznymi wcięciami, aby zaznaczyć
 ścieżkę, w której się znajdują.
+
 
 ./plik_wykonywalny ciag_znakow
 
@@ -18,7 +23,7 @@ WSKAZÓWKA: pomocne będzie przestudiowanie manuala: opendir, readdir, string.
 
 int main (int argc, char *argv[]) {
     
-    
+
     return 0;
 }
     
