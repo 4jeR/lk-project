@@ -3,8 +3,8 @@ Bartłomiej Długosz - Jądro systemu na przykładzie LINUX
 
 ZADANIE 1. - Własne polecenie find (System Calls)
 CEL ZADANIA:
-Wykorzystanie w praktyce wywołań systemowych - 
-komunikacją pomiędzy jądrem systemu a programem.
+Wykorzystanie w praktyce wywołań systemowych do zarządzania
+wirtualnym systemem plikowym poprzez program w języku C.
 
 ### PRZYGOTOWANIE:
 a) Uruchom skrypt: 

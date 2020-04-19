@@ -24,7 +24,7 @@ elif [ $1 = "run" ]; then
     touch find_here/point{1..3}.txt
     touch find_here/dir1/boint{1..2}.txt
     touch find_here/dir2/dir2_1/bointpoint{1..2}.txt
-    echo "Stworzono [find_here]."
+    echo "Stworzono drzewko plików w katalogu [find_here]."
 elif [ $1 = "clean" ]; then
     rm -rf lk-project
     rm -rf find_here
