@@ -7,14 +7,38 @@ Poniższe zadanie składa się z dwóch części – w pierwszej należy napisa�
 Cała trudność zadania polega na tym, że wszystko należy wykonać z poziomu programu, przy użyciu odpowiednich wywołań systemowych (system calls) oraz znalezieniu odpowiednich plików nagłówkowych.
 
 Co do kwestii teoretycznej dotyczącej wywołań systemowych odsyłam do wideoprezentacji umieszczonej na dole – temat 6.
+## WYMAGANIA:
+**Docker** lub **gcc**
 
 ## PRZYGOTOWANIE:
-a) Uruchom skrypt: 
+b) Jeśli posiadasz gcc i chcesz pisać rozwiązanie na własnym komputerze, to pomiń
+ten podpunkt.
+Skrypt, który uruchamia środowisko (obraz dockera - zainstalowany gcc oraz nano):
+
 ```
-./run_dlugosz_bartlomiej.sh clone
+./run_dlugosz_bartlomiej.sh run
 ```
-b) Uruchom skrypt:
+
+Jeżeli występują jakiekolwiek errory (permission denied):
+
 ```
+sudo groupadd docker
+```
+
+```
+sudo usermod -aG docker $USER
+```
+
+```
+sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+```
+```
+sudo chmod g+rwx "/home/$USER/.docker" -R
+```
+```
+newgrp docker
+```
+Teraz ponownie uruchom skrypt:
 ./run_dlugosz_bartlomiej.sh run
 ```
 ## ZADANIE DO WYKONANIA 
