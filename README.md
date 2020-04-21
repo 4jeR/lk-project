@@ -10,13 +10,13 @@ Co do kwestii teoretycznej dotyczącej wywołań systemowych odsyłam do wideopr
 
 ## PRZYGOTOWANIE:
 a) Uruchom skrypt: 
-
+```
 ./run_dlugosz_bartlomiej.sh clone
-
+```
 b) Stwórz przykładowe dane:
-
+```
 ./run_dlugosz_bartlomiej.sh run
-
+```
 ## ZADANIE DO WYKONANIA 
 ### CEL ZADANIA:
 Wykorzystanie w praktyce wywołań systemowych do manipulowania plikami z poziomu programu - komunikacja pomiędzy jądrem systemu a programem.
@@ -51,9 +51,9 @@ Użyj odpowiedniego system calla, aby pozyskać informację na temat uprawnień 
 
 Na koniec
 Aby wyczyścić to, co zostało ściągnięte przez skrypt 'clone' należy użyć flagi 'clean'.
-
+```
 ./run_dlugosz_bartlomiej.sh clean
-
+```
 
 Link do wideoprezentacji: 
 https://www.youtube.com/watch?v=9qwW-VgKIz0
