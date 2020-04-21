@@ -9,13 +9,12 @@ then
     then
         cd lk-project
     fi
-
     echo "      "
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
     echo "@ Budowanie środowiska dockerowego. @"
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
     echo "      "
-
+    
     docker build -t dlugoszbartlomiej:1.0 .
 
     echo "      "
