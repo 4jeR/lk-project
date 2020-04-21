@@ -49,16 +49,16 @@ Użyj odpowiedniego system calla, aby pozyskać informację na temat uprawnień 
 **(5)** na koniec należy zamknąć plik, który otworzyliśmy oraz zwolnić wszelką zaalokowaną pamięć.  
 
 
-## Na koniec
+## Na koniec  
 Aby wyczyścić to, co zostało ściągnięte przez skrypt 'clone' należy użyć flagi 'clean'.
 ```
 ./run_dlugosz_bartlomiej.sh clean
 ```
 
-Link do wideoprezentacji: 
+Link do wideoprezentacji:  
 https://www.youtube.com/watch?v=9qwW-VgKIz0
 
 
-Materiały:
+Materiały:  
 http://linasm.sourceforge.net/docs/syscalls/index.php  
 https://stackoverflow.com/questions
