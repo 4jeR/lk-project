@@ -1,6 +1,5 @@
 ## Bartłomiej Długosz – jądro systemu na przykładzie LINUX
 
-### LABORATORIUM
 
 ## WPROWADZENIE:
 Poniższe zadanie składa się z dwóch części – w pierwszej należy napisać program, który będzie działał podobnie jak polecenie bashowe find. W drugiej części należy zapisać wynik wyszukiwania do pliku, a także zmienić jego prawa dostępu. 
