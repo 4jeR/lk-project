@@ -13,7 +13,7 @@ a) Uruchom skrypt:
 ```
 ./run_dlugosz_bartlomiej.sh clone
 ```
-b) Stwórz przykładowe dane:
+b) Uruchom skrypt:
 ```
 ./run_dlugosz_bartlomiej.sh run
 ```
