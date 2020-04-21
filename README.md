@@ -60,5 +60,5 @@ https://www.youtube.com/watch?v=9qwW-VgKIz0
 
 
 Materiały:
-http://linasm.sourceforge.net/docs/syscalls/index.php
+http://linasm.sourceforge.net/docs/syscalls/index.php  
 https://stackoverflow.com/questions
