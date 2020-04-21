@@ -39,6 +39,8 @@ sudo chmod g+rwx "/home/$USER/.docker" -R
 newgrp docker
 ```
 Teraz ponownie uruchom skrypt:
+
+```
 ./run_dlugosz_bartlomiej.sh run
 ```
 ## ZADANIE DO WYKONANIA 
