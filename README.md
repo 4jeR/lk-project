@@ -11,6 +11,13 @@ Co do kwestii teoretycznej dotyczącej wywołań systemowych odsyłam do wideopr
 **Docker** lub **gcc**
 
 ## PRZYGOTOWANIE:
+
+a) Ściągnij repozytorium: 
+
+```
+./run_dlugosz_bartlomiej.sh clone
+```
+
 b) Jeśli posiadasz gcc i chcesz pisać rozwiązanie na własnym komputerze, to pomiń
 ten podpunkt.
 Skrypt, który uruchamia środowisko (obraz dockera - zainstalowany gcc oraz nano):
