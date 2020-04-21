@@ -1,42 +1,21 @@
 /*
 Bartłomiej Długosz - Jądro systemu na przykładzie LINUX
 
-ZADANIE 1. - Własne polecenie find (System Calls)
-CEL ZADANIA:
-Wykorzystanie w praktyce wywołań systemowych do zarządzania
-wirtualnym systemem plikowym poprzez program w języku C.
-
-### PRZYGOTOWANIE:
-a) Uruchom skrypt: 
-
-./run_dlugosz_bartlomiej.sh clone
-
-b) Stwórz przykładowe dane:
-
-./run_dlugosz_bartlomiej.sh run
-
 === TREŚĆ ZADANIA ===
+a) część pierwsza
 
 Napisz program w języku C, który znajdzie i wypisze na standardowe wyjście
 wszystkie pliki oraz katalogi, które w swojej nazwie zawierają 
 dany ciąg znaków (zadany jako argument wywołania programu).
 Wyniki powinny być wypisane z widocznymi wcięciami, aby zaznaczyć
-ścieżkę, w której się znajdują.
+ścieżkę, w której się znajdują, a katalogi oznaczone: [to_jest_katalog].
 
+Kompilować do pliku wykonywalnego o nazwie 'my_find'.
 
 ./my_find ciag_znakow
 
 WSKAZÓWKA: pomocne będzie przestudiowanie manuala m.in. opendir, readdir, string.
- 
-Na koniec
-Aby wyczyścić to, co zostało ściągnięte przez skrypt 'clone' należy użyć flagi 'clean'.
 
-./run_dlugosz_bartlomiej.sh clean
-
-UWAGA:
-USUNIE TO RÓWNIEŻ TEN PLIK !!!
-
-Link do wideoprezentacji: https://www.youtube.com/watch?v=9qwW-VgKIz0
 */
 
 
