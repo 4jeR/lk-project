@@ -44,6 +44,9 @@ then
         cd ..
     fi    
     rm -rf lk-project
+    docker ps -a -q -f status=exited | xargs docker rm
+    docker rmi dlugoszbartlomiej:1.0 
+    docker rmi ubuntu:20.04
 else
     echo "Podaj opcję: clone / run / clean"
 fi
